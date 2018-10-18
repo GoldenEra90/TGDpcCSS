@@ -1,0 +1,1147 @@
+@import url(//cdn.jsdelivr.net/font-nanum/1.0/nanumbarungothic/nanumbarungothic.css);
+
+#article-content-wrapper #article-content, #article-content-wrapper>.vote-area {
+    border: 0px;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > .reply-menu a, #article-reply-area #reply-best-area .reply > .reply-header > .reply-menu a {
+    text-decoration: none;
+    color: #fac837;
+}
+
+.btn-outline-success {
+    color: #484848;
+    background-image: none;
+    background-color: #fac837;
+    border-color: #fac837;
+    border-radius: 20px;
+}
+
+#article-list #article-option-area>#article-option-area-toggle-btn {
+    background: #eaeaea;
+    width: 36px;
+    height: 36px;
+    font-size: 16px;
+    line-height: 36px;
+    vertical-align: middle;
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    opacity: 0.5;
+    cursor: pointer;
+    display: none;
+}
+
+#article-list>.article-list-row:nth-of-type(2) {
+    border-top: 0px solid #6441a5;
+}
+
+#article-list>.article-list-row.hot>.item>.list-header>strong, #article-list>.article-list-row.hot>.item>.list-header>b {
+    color: #fac837;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    text-shadow: 0 0 40px #fac837, 0 0 3px #ffffff;
+ }
+
+#article-list>.article-list-row.hot {
+   text-shadow: 0 0 5px #ffffff;
+}
+
+#article-list-row-11119384, #article-list-row-11119384:hover {
+    background-image: url(https://github.com/GoldenEra90/TGD/blob/master/logo/%EC%96%B4%EA%B7%B8%EB%A1%9C.png) !important;
+    background-position: 177% 50% !important;
+}
+
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+    border-bottom: 1px solid #484848;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    background: #484848;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    color: #484848;
+}
+
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
+    z-index: 2;
+    background-color: #fac837;
+    border-color: #fac837;
+}
+
+#article-list>#article-list-row-4979025>.item>.list-title>a:visited {
+    color: #ffffff!important;
+}
+
+.fr-box.fr-basic .fr-element {
+    color: #fac837;
+    padding: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: auto;
+    min-height: 52px;
+    background: #484848;
+    border: 1px solid #fac837;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+}
+
+#article-list>.article-list-row>.item>.list-header.v0>span {
+    background-color: #484848;
+    color: #484848;
+    font-weight: normal;
+    display: none;
+}
+
+
+
+#article-list>.article-list-row>.item>.list-time {
+    width: 50px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fac837;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    padding: 0;
+    margin: 0;
+    font-family: "Nanum Barun Gothic";
+    color: #fac837;
+}
+
+.opt {
+    line-height: 30px;
+    vertical-align: top;
+    display: inline-block;
+    margin: 0;
+    margin-right: 7px;
+    color: #fac837;
+    font-family: "Nanum Barun Gothic";
+}
+
+.col-xs-4 {
+    width: 33%;
+    color: #fac837;
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 160px;
+    padding: 5px 0;
+    margin: 2px 0 0;
+    font-size: 14px;
+    text-align: left;
+    list-style: none;
+    background-color: #484848;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0,0,0,.15);
+    border-radius: 4px;
+    -webkit-box-shadow: 0 6px 12px rgba(0,0,0,.175);
+    box-shadow: -5px 5px 20px 11px rgb(164, 139, 63);
+}
+
+#article-list>.article-list-row>.item>.list-time {
+    width: 50px;
+    position: relative;
+    font-size: 12px;
+    font-weight: 700;
+    color: #fac837;
+}
+
+#article-list>.article-list-row>.item>.list-title>a {
+    color: #fac837;
+    text-decoration: none;
+    line-height: 18px;
+    word-break: break-all;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 450px;
+    height: 18px;
+    overflow: hidden;
+    margin-right: 5px;
+    float: left;
+}
+
+#article-list > .article-list-row.active + .article-list-row a::after {
+  display: block;
+  content: '다음 똥';
+  position: fixed;
+  right: 7.5rem;
+  bottom: 1.875rem;
+  padding: 0.5rem;
+  background: rgba(0, 0, 0, 0.25);
+  border: 0.08rem solid rgba(255, 255, 255, 0.2);
+}
+
+#article-list>.article-list-row>.item>.list-title>a:visited {
+    color: ##7f7f71;
+}
+
+.btn-group-sm>.btn, .btn-sm {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 15px;
+    background-color: #fac837;
+    color: #484848;
+    font-weight: 800;
+    border-color: #fac837;
+    font-family: "Nanum Barun Gothic";
+}
+
+#article-list>.article-list-row>.item>.list-title {
+    text-align: left;
+    padding: 6px 0;
+    font-size: 13px;
+}
+
+#main #main-content {
+    padding-right: 0;
+    color: #fac837;
+    font-family: "Nanum Barun Gothic";
+}
+
+a:focus, a:hover {
+    color: #fac837;
+    text-decoration: underline;
+}
+
+/*글쓰기*/
+#article-list #article-list-menu>.btn.write {
+    margin-right: 1em;
+    border: 1px solid #fac837;
+    border-radius: 15px;
+    background-color: #fac837;
+    font-size: 13px;
+    color: #484848;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+}
+
+#article-list #article-list-menu>.btn.best {
+    margin-left: 1em;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    border: 1px solid #fac837;
+    border-radius: 15px;
+    background-color: #fac837;
+    color: #484848;
+    font-size: 13px;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header > small.code, #article-reply-area #reply-best-area .reply>.reply-header>small.code {
+    font-size: 12px;
+    float: left;
+    padding-top: 8px;
+    padding-left: 6px;
+    color: #009cdc;
+    display: none;
+}
+
+#article-list #article-list-menu>.btn.cog {
+    position: absolute;
+    left: 90px;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    margin-left: 5px;
+}
+
+#article-list #article-list-menu>.btn.del {
+    position: absolute;
+    left: 165px;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    border: 1px solid #d9534f;
+}
+
+.fa-mail-forward:before, .fa-share:before {
+    content: "\f198";
+    color: #fac837;
+}
+
+
+/*페이지*/
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    background-color: #484848;
+    border-color: #484848;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    color: #fac837;
+}
+
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #fac837;
+    text-decoration: none;
+    background-color: #484848;
+    border: 1px solid #484848;
+}
+
+
+
+
+/*pc*/
+#main #main-content>div.frame{
+background: #484848; /* Old browsers */
+background: -moz-linear-gradient(top, #484848 0%, #484848 10%, #ffffff 11%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #484848 0%,#484848 10%,#ffffff 11%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #484848 0%,#484848 4%,#f6f6f6 0%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#484848', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+}
+
+#main #main-content>div.frame {
+    background: #484848;
+    border-right: 0px solid #f4efe1;
+    border-bottom: 0px solid #f4efe1;
+}
+
+/* Broadcater IMG */
+
+img[alt="Broadcaster"] {
+    display: inline-block;
+    box-sizing: border-box;
+    background: url(https://raw.githubusercontent.com/GoldenEra90/TGD/master/logo/real.gif) no-repeat;
+    width: 16px;
+    height: 16px;
+    padding-left: 16px;
+    background-size: 25px 25px;
+    background-position: -2px -2px;
+}
+
+.reply-writer img[alt="Broadcaster"] { display: none; }
+
+html, body {
+    width: 100% !important;
+    height: 100%;
+    background: #484848;
+    animation: binglebingle 9999s infinite;
+}
+
+header {
+    padding: 0.4em 0;
+}
+
+.fa-star:before {
+    content: "\f005";
+}
+
+.fa-user:before {
+    content: "\f0c0";
+}
+
+.fa-smile-o:before {
+    content: "\f06b";
+}
+
+#main-menu > .menu-wrapper {
+
+  opacity: 0.5;
+
+  filter: blur(1px);
+
+  transition: opacity 200ms ease, filter 150ms linear;
+
+}
+
+#main-menu > .menu-wrapper:hover {
+
+  opacity: 1;
+
+  filter: blur(0);
+
+}
+
+.open>.dropdown-menu {
+    display: block;
+    background-color: #484848;
+    left: -29px;
+    -webkit-animation: scale-in-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: scale-in-top 0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes scale-in-top {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+}
+@keyframes scale-in-top {
+  0% {
+    -webkit-transform: scale(0);
+            transform: scale(0);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    -webkit-transform-origin: 50% 0%;
+            transform-origin: 50% 0%;
+    opacity: 1;
+  }
+
+}
+
+/*포인트*/
+
+.frame>h3 {
+     font-family: "Nanum Barun Gothic";
+     background: rgb(72, 72, 72);
+    color: #fac837;
+    border-top: px solid #fac837;
+     font-size: 19px;
+    padding: 9px 15px;
+}
+
+.table {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 20px;
+    color: #fac837;
+    font-family: "Nanum Barun Gothic";
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    padding: 10px 16px;
+    font-size: 24px;
+    line-height: 1.3333333;
+    border-radius: 15px;
+    background: #fac837;
+    border: #484848;
+    color: #484848;
+    font-family: "Nanum Barun Gothic";
+}
+
+.alert-danger {
+    color: #484848;
+    background-color: #fac837;
+    border-color: #ff0000;
+    font-size: 45px;
+    font-family: "Nanum Barun Gothic";
+}
+
+.alert-success {
+    color: #484848;
+    background-color: #fac837;
+    border-color: #00ff0c;
+    font-size: 45px;
+    font-family: "Nanum Barun Gothic";
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>td, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+    border: 1px solid #fac837;
+    text-align: center;
+}
+
+.table>caption+thead>tr:first-child>td, .table>caption+thead>tr:first-child>th, .table>colgroup+thead>tr:first-child>td, .table>colgroup+thead>tr:first-child>th, .table>thead:first-child>tr:first-child>td, .table>thead:first-child>tr:first-child>th {
+    border-top: 0;
+    text-align: center;
+     width: 15px;
+}
+
+.dropdown-menu>li>a {
+    display: block;
+    padding: 3px 20px;
+    clear: both;
+    font-weight: 400;
+    line-height: 1.42857143;
+    color: #fac837;
+    white-space: nowrap;
+}
+
+.dropdown-menu .divider {
+    height: 2px;
+    margin: 9px 0;
+    overflow: hidden;
+    background-color: #f6e1b6;
+}
+
+#content-area>.container {
+    position: relative;
+    background-color: #484848;
+}
+
+#article-content-wrapper {
+    padding: 0 0 1em;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+}
+
+#article-content-wrapper>.footer {
+    background: #484848;
+    padding: 0.5em 0.8em;
+}
+
+.fa-heart:before {
+    content: "\f004";
+   display : none;
+}
+
+footer {
+    padding: 2em 0 4em;
+    text-align: center;
+    background-color: #484848;
+    color: #fac837
+}
+
+#article-list{
+	padding: 0em;
+	margin-top: 19px;
+}
+
+#article-list>.article-list-row{
+	border-right: 0px;
+	background-color: #ffffff;
+}
+#article-list>.article-list-row:first-of-type{
+border-top:3px solid #fac837;
+}
+#article-list>.article-list-row>.item>.list-header{
+	border-left:0px;
+}
+#article-list>.article-list-row>.item>.list-header>span{
+background-color:rgba(0,0,0,0);
+color:#fac837;
+font-size:13px;
+border:0px solid #fac837;
+}
+#article-list>.article-list-row>.item>.list-header>span:before{
+content:"\f102";
+font:normal normal normal 15px FontAwesome;
+padding-right: 5px;
+}
+
+
+#article-list>.article-list-row>.item>.list-title>small.comment-count,
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span,
+#article-reply-area > .header h5,
+#article-reply-area #reply-real-area .reply>.reply-header>.reply-writer.logged{
+color:#fac837;
+}
+
+
+#article-list>.article-list-row.notice{
+background-color:#484848;
+font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+}
+
+
+#article-list>.article-list-row>.item>.list-header>strong {
+    color: #fac837;
+    font-weight: bold;
+    font-size: 12px;
+    padding: 1px 5px;
+}
+
+
+
+header .row>div:nth-child(1)>a{
+	background-repeat:no-repeat;
+	display: block;
+	height: 60px;
+	background-image: url(https://github.com/GoldenEra90/TGD/blob/master/logo/1nNjyLe.png?raw=true);
+     -webkit-animation: bounce-in-right 2.2s both;
+	             animation: bounce-in-right 2.2s both;
+}
+/* ----------------------------------------------
+ * Generated by Animista on 2018-4-10 11:51:13
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation bounce-in-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes bounce-in-right {
+  0% {
+    -webkit-transform: translateX(600px);
+            transform: translateX(600px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: translateX(68px);
+            transform: translateX(68px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: translateX(32px);
+            transform: translateX(32px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  90% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  95% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+@keyframes bounce-in-right {
+  0% {
+    -webkit-transform: translateX(600px);
+            transform: translateX(600px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+    opacity: 0;
+  }
+  38% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+    opacity: 1;
+  }
+  55% {
+    -webkit-transform: translateX(68px);
+            transform: translateX(68px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  72% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  81% {
+    -webkit-transform: translateX(32px);
+            transform: translateX(32px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  90% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+  95% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+  }
+}
+
+
+
+header .row>div:nth-child(1)>a img{
+	opacity: 0;
+}
+
+.col-xs-8 img{
+opacity:0;
+width:231px;
+height:62px;
+}
+
+#article-info>h2 {
+    font-size: 20px;
+    width: 750px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    color: #fac837;
+    padding-bottom: 4px;
+}
+
+#article-info #article-info-writer {
+    font-size: 12px;
+    padding-top: 4px;
+    padding-bottom: 0px;
+    color: #fac837;
+    margin-bottom: 5px;
+}
+
+
+
+
+#board-info{
+border-top:3px solid #fac837;
+height:67px;
+overflow:inherit;
+padding: 5px 0px 0px 8px;
+margin: 0;
+height: 0;
+}
+
+
+header #right-search-form>#right-search-btn{
+color:#fac837;
+}
+header #right-search-form>input[type=text]{
+border-color:#fac837;
+}
+
+header #header-bar #header-top-notice,
+header #header-bar a.dropdown-toggle,
+header #header-bar #header-top-notice a{
+background-image:none;
+color:#fac837;
+animation:boodrerum .5s;
+}
+
+header #header-bar #header-menu-right #userDropdown #notification-badge {
+    border-radius: 100px;
+    padding: 3px 6px;
+    background: #fac837;
+    color: #484848;
+}
+
+#board-info h1>a.badge.badge-live {
+    float: left;
+    display: block !important;
+    visibility: hidden;
+    font-size:0;
+    border: 0;
+    padding: 0;
+    padding-left: 5px;
+}
+#board-info h1>a.badge.badge-live:before {
+    visibility: visible;
+    font-size: 12px;
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f03d ";
+    color: red;
+}
+
+#board-info h1>a.badge.badge-live:after {
+    visibility: visible;
+    font-size: 12px;
+    content: " Live!"!important;
+    color: red;
+}
+
+
+/*공지글은fff*/
+#article-list>.notice>.item>.list-title>a{color: #EAE20B}
+
+header #header-bar>.row,#main .menu-wrapper{
+border-bottom:0px;
+border-right:0px;
+border-top:3px solid #fac837;
+font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+transition: filter 300ms ease;
+}
+
+header #header-bar>.row{
+background-color: #484848;
+padding-top:.1em;
+padding-bottom:0em;
+}
+
+
+#main .menu-wrapper>.header{
+background:rgba(0,0,0,.7);
+color:#fac837;
+border-bottom: 2px solid #fac837;
+background: linear-gradient(118deg, #484848 89%, #fac837 90% ,#484848 95%, #fac837 100%);
+}
+
+#main .menu-wrapper>.header>a{
+color: #fac837;
+    text-decoration: none;
+}
+
+#main .menu-wrapper>a>em,#main .menu-wrapper>a>i.fa.fa-square{
+color:#fac837;
+}
+
+#main .menu-wrapper>a {
+    display: block;
+    background: #484848;
+    padding: 0.3em 1.4em 0.3em 0.7em;
+    text-decoration: none;
+    color: #fac837;
+    border-bottom: 1px solid #f6e1b6;
+}
+
+#main .menu-wrapper>.game-wrapper>a.game {
+    padding: 0.3em 0.35em 0.3em 0.35em;
+    display: inline-block;
+    flex: 1;
+    font-size: 12px;
+    vertical-align: middle;
+    text-align: center;
+    background: #484848;
+    text-decoration: none;
+    color: #fac837;
+    border-bottom: 1px solid #f6e1b6;
+}
+
+header #header-bar{
+margin-top:0px;
+}
+
+
+/*광고양옆 짝대기*/
+header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
+/*광고뱃지*/
+header #header-bar #header-top-notice strong.notice-badge{display:none;}
+/*게시판순위*/
+#board-info h1>a:before {
+    font: normal normal normal 14px/1 FontAwesome;
+    content: "\f015   골게더";
+    font-size: 12px;
+    font-weight: bold;
+    color: #fac837;
+}
+
+#board-info h1, #board-info h1>a {
+    float: left;
+    font-size: 0px;
+    border: 0;
+    color: #484848;
+    padding-right: 4px;
+    padding-top: 1px;
+    font-weight: bold;
+}
+#board-info h1 .badge{display:none;} /*게시판순위*/
+#board-info #board-info-profile-img{display: none;}
+#board-info #board-info-bottom a[href="/goldenera90/profile"] {display: none;}
+
+
+span.a-badge i.fa.fa-info-circle{
+color:#fac837;
+}
+
+#article-list>.notice>.item>.list-time, #article-list>.notice>.item>.list-title>.list-writer.logged>span{
+color:#fac837;
+}
+
+/*유동닉*/
+#article-list>.article-list-row>.item>.list-title>.list-writer>span:after{content:" (유동)";}
+#article-list>.article-list-row>.item>.list-title>.list-writer.logged>span:after{content:" ";}
+
+#main .menu-wrapper .spacer{
+  background: #f6e1b6;
+  height : 2px;
+}
+
+.img-circle{
+	border-radius:20%;
+}
+
+#article-info{
+	background:rgb(72, 72, 72);
+	margin-top: 11px;
+	color: #ffffff;
+	padding: 1em 1em 0em;
+        clear:both;
+        border-top: 3px solid #fac837;
+}
+#article-content-wrapper{
+	padding: 0 0 1em;
+}
+#article-content-wrapper>.header {
+    border-top: 1px solid #fac837;
+    border-bottom: 1px solid #fac837;
+    margin-bottom: 20px;
+    background-color: #484848;
+    color: #fac837;
+}
+
+
+#article-info,
+#board-info,
+#article-content-wrapper #article-content{
+    animation-delay: .4s;
+    float: none;
+    clear: both;
+    word-wrap: break-word;
+    color: #fac837; 
+    border: 0px; 
+}
+#article-list #article-list-category{
+	border-top: 0px;
+	background-color: #fac837;
+	clear: both;
+}
+#article-list #article-list-category>a,
+#article-list #article-list-category>a.active,
+#article-list #article-list-category>a:hover{
+	background-color: #fac837;
+}
+
+#board-info #board-info-bottom {
+    padding: 0;
+    background: linear-gradient(118deg, #484848 40%, #fac837 50%, #484848 51%,#484848 50%, #fac837 60%, #484848 61%, #484848 60%, #fac837 70%, #484848 71%, #484848 70%, #fac837 80% ,#484848 81%);
+}
+
+#board-info #board-info-bottom a {
+    color: #fac837;
+    border: 0px;
+    font-weight: bold;
+    padding-left: 3px;
+}
+
+
+.fa-money:before {
+    content: "\f1a0";
+}
+
+
+#board-info #board-info-bottom #goClipBtn i:before{
+	content: "\f008  믿고보는 " ; 
+        font-weight: bold;
+}
+
+#board-info #board-info-bottom #addFavoriteBtn{
+	padding-left: 3px!important;
+}
+#board-info #board-info-bottom #addFavoriteBtn i{
+	color: #fac837;
+}
+
+
+#article-list>.article-list-row>.item>.list-checkbox, #article-list>.article-list-row>.item>.list-header, #article-list>.article-list-row>.item>.list-category, #article-list>.article-list-row>.item>.list-title, #article-list>.article-list-row>.item>.list-blocked, #article-list>.article-list-row>.item>.list-time {
+    border-bottom: 1px solid #484848;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+}
+
+#article-list>.article-list-row>.item>.list-title>.list-writer{
+    float: right;
+    padding: 0 11px;
+    border-left: 1px solid #e2e2e200;
+    border-right: 1px solid #e2e2e200;
+    text-align: right;
+    min-height: 16px;
+    line-height: 16px;
+}
+
+.fa-gear:before, .fa-cog:before {
+    content: "\f085";
+}
+
+#article-reply-area #reply-real-area .reply>.reply-content img{
+max-width:100%;
+}
+
+#article-reply-area #reply-real-area .reply, #article-reply-area #reply-best-area .reply {
+    margin-bottom: 0.5em;
+    border: 0px solid #f1f1f1;
+    position: relative;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+    box-shadow: 0 0 20px 0px rgb(250, 200, 55);
+}
+
+#article-reply-area #reply-real-area .reply > .reply-content p, #article-reply-area #reply-best-area .reply > .reply-content p {
+    margin: 0;
+    word-wrap: break-word;
+    color: #fac837;
+}
+
+#article-reply-area #reply-real-area .reply > .reply-header, #article-reply-area #reply-best-area .reply>.reply-header {
+    background: #fac83726;
+    border-right: 1px solid #4848484f;
+    border-left: 1px solid #4848484f;
+    border-top: 1px solid #4848484f;
+    border-bottom: 0px;
+    padding: 0.4em 0.5em;
+    color: #fac837;
+}
+
+
+#article-reply-area #reply-real-area .reply > .reply-content, #article-reply-area #reply-best-area .reply>.reply-content {
+    padding: 0.7em;
+    border-bottom: 1px solid #4848484f;
+    border-left: 1px solid #4848484f;
+    border-right: 1px solid #4848484f;
+}
+
+
+.frame .text-muted{
+display:none;
+}
+
+.fr-box.fr-basic .fr-element {
+    color: #fac837;
+    padding: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: auto;
+    min-height: 52px;
+    background: #484848;
+    border: 1px solid #fac837;
+}
+
+.fr-toolbar.fr-top {
+    top: 0;
+    border-radius: 2px 2px 0 0;
+    -moz-border-radius: 2px 2px 0 0;
+    -webkit-border-radius: 2px 2px 0 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 1px 1px rgba(0,0,0,.16);
+    -moz-box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 1px 1px rgba(0,0,0,.16);
+    box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 1px 1px 1px rgba(0,0,0,.16);
+    border: 1px solid #fac837;
+    background-color: #484848;
+   border-bottom-width: 0 !important;
+}
+
+.fr-toolbar .fr-command.fr-btn, .fr-popup .fr-command.fr-btn {
+    background: 0 0;
+    color: #fac837;
+    -moz-outline: 0;
+    outline: 0;
+    border: 0;
+    line-height: 1;
+    cursor: pointer;
+    text-align: left;
+    margin: 0 2px;
+    -webkit-transition: background .2s ease 0s;
+    -moz-transition: background .2s ease 0s;
+    -ms-transition: background .2s ease 0s;
+    -o-transition: background .2s ease 0s;
+    border-radius: 0;
+    -moz-border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    z-index: 2;
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    float: left;
+    padding: 0;
+    width: 38px;
+    height: 38px;
+}
+
+#board-info #viewers-area{
+line-height:16px;
+font-weight: bold;
+color:#fac837;
+font-size:12px;
+position:absolute;
+right:8px;
+	opacity: 0;
+	animation:boodrerum .5s;
+	animation-delay: .2s;
+	animation-fill-mode: both;
+        font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+}
+#board-info #viewers-area #viewers:before{
+content:"현재 ";
+}
+#board-info #viewers-area #viewers:after{
+content:"골드!";
+}
+@keyframes boodrerum {
+  from{opacity:0;}
+  to{opacity:1;}
+}
+span.a-badge i.fa.fa-star{
+animation:binglebingle 2s infinite;
+}
+.fa-star:nth-child(even){
+animation-delay: 1s;
+}
+@keyframes binglebingle{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+
+
+.fr-box.fr-basic .fr-element {
+    color: #000;
+    padding: 16px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow-x: auto;
+    min-height: 52px;
+    font-family: 'Nanum Barun Gothic', -apple-system, BlinkMacSystemFont, 'Malgun Gothic', sans-serif;
+}
+
+
+
+
+/*
+#article-list>.article-list-row>.item>.list-header{display:none}
+#article-list>.article-list-row>.item>.list-title>.list-category{border-left:0px;}
+#article-list>.notice>.item>.list-title{padding-left:1em;}
+*/
+/*
+
+*/
+/*비추
+.btn-outline-primary{transition-duration:2s;transition-delay:1s;cursor:default;user-select:none;}
+.btn-outline-primary:hover{transition-duration:.5s;transition-delay:0s;color:#0275d8;transform:translate(-190px, -1200px);background-color:rgba(0,0,0,0);}
+.btn-outline-primary:active{box-shadow:inset 0 0px 0px rgba(0,0,0,0);}
+.btn-outline-primary>#down{display:none;}
+*/
+/*
+#article-list>.article-list-row:not(.notice) {display:none}
+#article-list{height:500px;background:url(http://puu.sh/zc2k1/a14683002b.png);}
+#article-list #article-list-menu{margin-top:295px;}
+*/
+*/
