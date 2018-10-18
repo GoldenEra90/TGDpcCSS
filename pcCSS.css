@@ -173,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #article-list > .article-list-row.active + .article-list-row a::after {
   display: block;
-  content: '���� ��';
+  content: '다음 똥';
   position: fixed;
   right: 7.5rem;
   bottom: 1.875rem;
@@ -215,7 +215,7 @@ a:focus, a:hover {
     text-decoration: underline;
 }
 
-/*�۾���*/
+/*글쓰기*/
 #article-list #article-list-menu>.btn.write {
     margin-right: 1em;
     border: 1px solid #fac837;
@@ -265,7 +265,7 @@ a:focus, a:hover {
 }
 
 
-/*������*/
+/*페이지*/
 .pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
     background-color: #484848;
     border-color: #484848;
@@ -402,7 +402,7 @@ header {
 
 }
 
-/*����Ʈ*/
+/*포인트*/
 
 .frame>h3 {
      font-family: "Nanum Barun Gothic";
@@ -768,7 +768,7 @@ header #header-bar #header-menu-right #userDropdown #notification-badge {
 }
 
 
-/*��������fff*/
+/*공지글은fff*/
 #article-list>.notice>.item>.list-title>a{color: #EAE20B}
 
 header #header-bar>.row,#main .menu-wrapper{
@@ -829,11 +829,11 @@ margin-top:0px;
 }
 
 
-/*�����翷 ¦����*/
+/*광고판 옆 짝대기*/
 header #header-bar #header-menu-left, header #header-bar #header-menu-right{border: 0px;}
-/*��������*/
+/*광고뱃지*/
 header #header-bar #header-top-notice strong.notice-badge{display:none;}
-/*�Խ��Ǽ���*/
+/*게시판순위*/
 #board-info h1>a:before {
     font: normal normal normal 14px/1 FontAwesome;
     content: "\f015   골게더";
@@ -851,7 +851,7 @@ header #header-bar #header-top-notice strong.notice-badge{display:none;}
     padding-top: 1px;
     font-weight: bold;
 }
-#board-info h1 .badge{display:none;} /*�Խ��Ǽ���*/
+#board-info h1 .badge{display:none;} /*게시판순위*/
 #board-info #board-info-profile-img{display: none;}
 #board-info #board-info-bottom a[href="/goldenera90/profile"] {display: none;}
 
@@ -864,8 +864,8 @@ color:#fac837;
 color:#fac837;
 }
 
-/*������*/
-#article-list>.article-list-row>.item>.list-title>.list-writer>span:after{content:" (����)";}
+/*유동닉*/
+#article-list>.article-list-row>.item>.list-title>.list-writer>span:after{content:" (유동)";}
 #article-list>.article-list-row>.item>.list-title>.list-writer.logged>span:after{content:" ";}
 
 #main .menu-wrapper .spacer{
@@ -1094,7 +1094,7 @@ right:8px;
 content:"현재 ";
 }
 #board-info #viewers-area #viewers:after{
-content:"보유!";
+content:"골드!";
 }
 @keyframes boodrerum {
   from{opacity:0;}
@@ -1133,7 +1133,7 @@ animation-delay: 1s;
 /*
 
 */
-/*����
+/*비추
 .btn-outline-primary{transition-duration:2s;transition-delay:1s;cursor:default;user-select:none;}
 .btn-outline-primary:hover{transition-duration:.5s;transition-delay:0s;color:#0275d8;transform:translate(-190px, -1200px);background-color:rgba(0,0,0,0);}
 .btn-outline-primary:active{box-shadow:inset 0 0px 0px rgba(0,0,0,0);}
