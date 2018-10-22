@@ -314,7 +314,7 @@ img[alt="Broadcaster"] {
     height: 16px;
     padding-left: 16px;
     background-size: 25px 25px;
-    background-position: -2px -2px;
+    background-position: -5px -0px;
 }
 
 .reply-writer img[alt="Broadcaster"] { display: none; }
